@@ -60,8 +60,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .TodoForm {
-  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
-
   input {
     width: 540px;
     padding: 20px 68px;
