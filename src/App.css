@@ -161,9 +161,13 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   display: inline;
 }
 
+body.dark {
+  background-image: url(/img/darkbackground.png);
+}
+
 .dark {
   background-color: black;
-
+  
   .lightMode {
     display: inline;
   }
@@ -202,3 +206,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   }
 
 }
+/* 
+@media (width <= 375px) {
+
+} */
